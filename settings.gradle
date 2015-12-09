@@ -1,1 +1,1 @@
-include ':app', ':dbutils', ':annotiactiondemo', ':myannotiactiondemo', ':myhttputils', ':eventbus', ':volleydemo', ':baseadapterdemo'
+include ':app', ':dbutils', ':annotiactiondemo', ':myannotiactiondemo', ':myhttputils', ':eventbus', ':volleydemo', ':baseadapterdemo', ':percentlayoutdemo', ':webviewdemo', ':imageloader'

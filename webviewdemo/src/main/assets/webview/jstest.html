@@ -1,0 +1,30 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <title>js测试页面</title>
+        <script type="text/javascript">
+            function testAlert(){
+                alert("this is js");
+            }
+
+            function testConfirm(){
+                var r=confirm("this is js");
+                alert(r);
+            }
+            function testPrompt(){
+                var r=prompt("please input your name","who am i?");
+                alert(r);
+            }
+            function callJava(){
+              window.qianfeng.callFromJs("call java from js");
+            }
+
+        </script>
+    </head>
+    <body>
+    <input type="button" onclick="testAlert();" value="testAlert"><br/><!-- 测试弹出对话框-->
+    <input type="button" onclick="testConfirm();" value="testConfirm"><br/><!-- 测试弹出对话框-->
+    <input type="button" onclick="testPrompt();" value="testPrompt"><br/><!-- 测试弹出对话框-->
+    <input type="button" onclick="callJava();" value="callJava"><br/><!-- 测试js调用java代码-->
+    </body>
+</html>

@@ -20,6 +20,7 @@ MERGED from [com.android.support:support-v4:23.1.1] /Users/jackiechan/Documents/
 MERGED from [com.zhy:percent-support-extends:1.1.1] /Users/jackiechan/Documents/Workspace/ClassDemo/percentlayoutdemo/build/intermediates/exploded-aar/com.zhy/percent-support-extends/1.1.1/AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/jackiechan/Documents/Workspace/ClassDemo/percentlayoutdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /Users/jackiechan/Documents/Workspace/ClassDemo/percentlayoutdemo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [org.xutils:xutils:3.1.12] /Users/jackiechan/Documents/Workspace/ClassDemo/percentlayoutdemo/build/intermediates/exploded-aar/org.xutils/xutils/3.1.12/AndroidManifest.xml:12:5-20
 	android:label
 		ADDED from /Users/jackiechan/Documents/Workspace/ClassDemo/percentlayoutdemo/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -51,6 +52,7 @@ MERGED from [com.android.support:support-v4:23.1.1] /Users/jackiechan/Documents/
 MERGED from [com.zhy:percent-support-extends:1.1.1] /Users/jackiechan/Documents/Workspace/ClassDemo/percentlayoutdemo/build/intermediates/exploded-aar/com.zhy/percent-support-extends/1.1.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/jackiechan/Documents/Workspace/ClassDemo/percentlayoutdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.1] /Users/jackiechan/Documents/Workspace/ClassDemo/percentlayoutdemo/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [org.xutils:xutils:3.1.12] /Users/jackiechan/Documents/Workspace/ClassDemo/percentlayoutdemo/build/intermediates/exploded-aar/org.xutils/xutils/3.1.12/AndroidManifest.xml:8:5-10:41
 	android:targetSdkVersion
 		INJECTED from /Users/jackiechan/Documents/Workspace/ClassDemo/percentlayoutdemo/src/main/AndroidManifest.xml
 		INJECTED from /Users/jackiechan/Documents/Workspace/ClassDemo/percentlayoutdemo/src/main/AndroidManifest.xml

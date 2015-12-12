@@ -7,7 +7,9 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
+* .gitignore
 * LICENSE
+* TODO.txt
 * pom.xml
 
 Moved Files:
@@ -15,9 +17,9 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => pulltorefreshlibrary/src/main/AndroidManifest.xml
-* res/ => pulltorefreshlibrary/src/main/res/
-* src/ => pulltorefreshlibrary/src/main/java/
+* AndroidManifest.xml => satellitemenu/src/main/AndroidManifest.xml
+* res/ => satellitemenu/src/main/res/
+* src/ => satellitemenu/src/main/java/
 
 Next Steps:
 -----------

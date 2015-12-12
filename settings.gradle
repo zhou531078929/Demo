@@ -1,3 +1,4 @@
-include ':app', ':dbutils', ':annotiactiondemo', ':myannotiactiondemo', ':myhttputils', ':eventbus', ':volleydemo', ':baseadapterdemo', ':percentlayoutdemo', ':webviewdemo', ':imageloader', ':slidemenusdemo', ':DrawlayoutDemo', ':pulltorefreshdemo'
+include ':app', ':dbutils', ':annotiactiondemo', ':myannotiactiondemo', ':myhttputils', ':eventbus', ':volleydemo', ':baseadapterdemo', ':percentlayoutdemo', ':webviewdemo', ':imageloader', ':slidemenusdemo', ':DrawlayoutDemo', ':pulltorefreshdemo', ':satellitemenudemo', ':satellitemenudemo'
 include ':slidelibrary'
 include ':pulltorefreshlibrary'
+include ':satellitemenu'

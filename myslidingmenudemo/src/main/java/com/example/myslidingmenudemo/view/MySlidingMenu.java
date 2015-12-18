@@ -127,12 +127,12 @@ public class MySlidingMenu extends HorizontalScrollView {
 
         /**
          * 区别1: 内容区域越来越小 比例的话 1.0-0.7   0.7+0.3*scal
-         * 菜单区域越来越大,透明度越来越不透明  缩放 0.7-1   1.0-0.3*scal     ,透明度 0.6-1   0.6+0.4*scal
+         * 菜单区域越来越大,透明度越来越不透明  缩放 0.7-1   1.0-0.3*scal     ,透明度 0.6-1   0.6+0.4*(1.0f-scal)
          */
 
         float contentScale = 0.7f + 0.3f * scale;
         float menuScale = 1.0f - 0.3f * scale;
-        float menuAlpha = 0.6f + 0.4f * scale;
+        float menuAlpha = 0.6f + 0.4f *(1.0f-scale);
         //菜单区域的缩放和透明度
         ViewHelper.setScaleX(mMenu, menuScale);
         ViewHelper.setScaleY(mMenu, menuScale);

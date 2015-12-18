@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/img_frame_background"
+    tools:context="com.example.myslidingmenudemo.MainActivity">
+
+  <com.example.myslidingmenudemo.view.MySlidingMenu
+      android:layout_width="match_parent"
+      android:scrollbars="none"
+      app:paddingRight="100dp"
+      android:id="@+id/slid"
+      android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal">
+          <include layout="@layout/item_menu"/>
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <ImageView
+                  android:layout_width="match_parent"
+                  android:scaleType="fitXY"
+                  android:src="@mipmap/qq"
+                  android:layout_height="match_parent" />
+            <Button
+                android:layout_width="wrap_content"
+                android:text="切换按钮"
+                android:onClick="onClick"
+                android:layout_height="wrap_content" />
+          </RelativeLayout>
+
+
+
+      </LinearLayout>
+
+  </com.example.myslidingmenudemo.view.MySlidingMenu>
+</RelativeLayout>

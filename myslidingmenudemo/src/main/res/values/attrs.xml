@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="paddingRight" format="dimension" />
+    <declare-styleable name="MySlidingMenu">
+        <attr name="paddingRight" />
+    </declare-styleable>
+
+</resources>
